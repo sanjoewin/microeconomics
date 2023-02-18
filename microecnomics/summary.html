@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-02-18 六 22:34 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Summary</title>
+<meta name="author" content="silu" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Summary</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org6622c15">1. Chapter 1</a></li>
+<li><a href="#org39d8274">2. Chapter 2</a></li>
+<li><a href="#org1caf35e">3. Chapter 3</a></li>
+<li><a href="#org16c4a35">4. Chapter 4</a></li>
+<li><a href="#orgaaedd0f">5. Chapter 5</a></li>
+<li><a href="#orge8decc9">6. Chapter 6</a></li>
+<li><a href="#org4927c8e">7. Chapter 7</a></li>
+<li><a href="#org6c14d8d">8. Chapter 8</a></li>
+<li><a href="#org50e83d7">9. Chapter 9</a></li>
+<li><a href="#orgf8feb09">10. Chapter 10</a></li>
+<li><a href="#orgf9399e6">11. Chapter 11</a></li>
+<li><a href="#org4f0a566">12. Chapter 12</a></li>
+<li><a href="#org02ffe35">13. Chapter 14</a></li>
+<li><a href="#orge2ec71b">14. Chapter 15</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6622c15" class="outline-2">
+<h2 id="org6622c15"><span class="section-number-2">1.</span> Chapter 1</h2>
+<div class="outline-text-2" id="text-1">
+<ol class="org-ol">
+<li><p>
+Economics proceeds by making models of social phenomena, which are simplified representations of reality.
+</p>
+
+<p>
+<i>Tran.</i> :通常从构建社会现象的模型开始进行经济分析，这样的模型是现实的简化表示。
+</p></li>
+<li><p>
+In this task,economists are guided by the optimization principle, which states that people typically try to choose what's best for them, and by the equilibrium princile, which says that prices will adjust demand and supply are equal.
+</p>
+
+<p>
+<i>Tran.</i> :在经济分析的任务中，经济学家通常遵循最优化原则和均衡原则，前者是说人们通常尽力选择最好的东西，后者是说价格将一直调整至需求和供给相等为止。
+</p></li>
+<li><p>
+The demand curve measuress how much people wish to demand at each price, and the supply curve measures how much people wish to supply at each price. An equilibrium price is one where the amount demanded equals the amount suppied.
+</p>
+
+<p>
+<i>Tran.</i> :需求曲线描述在每个价格水平上人们愿意需求的数量，供给曲线描述在每个价格水平上的供给数量。均衡价格是需求量等于供给量时的价格。
+</p></li>
+<li><p>
+The study of how the equilibrium price and quantity change when the underlyin conditions change is known as comparative statics.
+</p>
+
+<p>
+<i>Tran.</i> :比较静态分析是研究当相关基本条件改变时，均衡价格和均衡数量如何改变。
+</p></li>
+<li><p>
+The economic situation is Pareto efficient if there is no way to make some group of people better off without making some other group of people worse off.The concept of Pareto efficient can be used to evaluate different ways of allocating resources.
+</p>
+
+<p>
+<i>Tran.</i> :如果不可能在不损害他们利益的情况下使得自己状况变得更好，那么这种经济状态就成为帕累托有效。帕累托有效也可能用于评估资源的不同配置方式。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org39d8274" class="outline-2">
+<h2 id="org39d8274"><span class="section-number-2">2.</span> Chapter 2</h2>
+<div class="outline-text-2" id="text-2">
+<ol class="org-ol">
+<li><p>
+The budget set consists of all bundles of goods that the consumer can afford at given prices and income. We will typically assume that there are only two goods, but this assumption is more general than is seems.
+</p>
+
+<p>
+<i>Tran.</i> :预算集包含了在给定image和收入水平下消费者能买得起的所有消费束。我们通常假设只有两种商品，这种假设具有较高的代表性。
+</p></li>
+<li><p>
+The budget line is written as \(p_{1}x_{1} + p_{2}x_{2} = m\). It has slope of \(-p_{1}/p_{2}\), a vertical intercept of \(m/p_{2}\), and a horizontal intercept of \(m/p_{1}\).
+</p>
+
+<p>
+<i>Tran.</i> :预算线的表达式为\(p_{1}x_{1} + p_{2}x_{2} = m\). 它的斜率为\(-p_{1}/p_{2}\), 纵截距为\(m/p_{2}\), 横截距为\(m/p_{1}\)。
+</p></li>
+<li><p>
+Increasing incomes shift the budget line outward. Increasing the price of good 1 makes the budget line steeper. Increasing the price of good 2 makes the budget line flatter.
+</p>
+
+<p>
+<i>Tran.</i> :收入的增加会使得预算线向外平行移动。商品1的价格上升会使预算线更陡峭，而商品2的价格上升会使预算线更平坦。
+</p></li>
+<li><p>
+Taxes, subsidies, and rationing change the slope and position of the budget line by changing the prices paid by the consumer.
+</p>
+
+<p>
+<i>Tran.</i> :税收、补贴和配额改变了消费者支付的商品价格，从而改变了预算线的斜率和位置。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org1caf35e" class="outline-2">
+<h2 id="org1caf35e"><span class="section-number-2">3.</span> Chapter 3</h2>
+<div class="outline-text-2" id="text-3">
+<ol class="org-ol">
+<li><p>
+Economists assume that a consumer can rank various consumptions possibilities. The way in which the consumer ranks the consumption bundles describe the consumer's preferences.
+</p>
+
+<p>
+<i>Tran.</i> :经济学家假设消费者可对各种消费束进行排序。消费者对消费束的排序方法刻画了他的偏好。
+</p></li>
+<li><p>
+Indifference curves can be used to depict different kinds of preferences.
+</p>
+
+<p>
+<i>Tran.</i> :无差异曲线可以描述不同类型的偏好。
+</p></li>
+<li><p>
+Well-behaved preferences are monotonic(meaning more is better) and convex(meaning averages are preferred to extremes).
+</p>
+
+<p>
+<i>Tran.</i> :良好性状的偏好，既是单挑的（多多益善）又是凸的（即平均束好于端点束）。
+</p></li>
+<li><p>
+The marginal rate of substitution(MRS) measures the slope of the indifference curve. This can be interpreted as how much the consumer is willing to give up of good 2 to acquire more of good 1.
+</p>
+
+<p>
+<i>Tran.</i> :边际替代率等于无差异曲线的斜率。它的意思是说，为了得到更多的商品1,消费者愿意放弃的商品2的数量，即\(MRS_{12} = \Delta x_{2}/\Delta x_{1}\)。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org16c4a35" class="outline-2">
+<h2 id="org16c4a35"><span class="section-number-2">4.</span> Chapter 4</h2>
+<div class="outline-text-2" id="text-4">
+<ol class="org-ol">
+<li><p>
+A utility funciton is simply a way to represnt or summarize a preference ordering. The numerical magnitudes of utility levels have no intrinsic meaning.
+</p>
+
+<p>
+<i>Tran.</i> :效用函数只是偏好排序的一种表示方式。效用水平的数字大小没有实际含义。
+</p></li>
+
+<li><p>
+Thus, given any one utility function, any monotonic transformation of it will represent the same preferences.
+</p>
+
+<p>
+<i>Tran.</i> :因此，给定任何一个效用函数，它的任何单调变化仍然表示相同的爱好。
+</p></li>
+
+<li><p>
+The marginal rate of substitution, MRS, can be calculated from the utility function via the formula \(MRS=\Delta x_{2}/\Delta x_{1} = - MU_{1}/MU_{2}\).
+</p>
+
+<p>
+<i>Tran.</i> :边际替代率可以通过效用函数计算，计算公式为：\(MRS=\Delta x_{2}/\Delta x_{1} = - MU_{1}/MU_{2}\)。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgaaedd0f" class="outline-2">
+<h2 id="orgaaedd0f"><span class="section-number-2">5.</span> Chapter 5</h2>
+<div class="outline-text-2" id="text-5">
+<ol class="org-ol">
+<li><p>
+The optimal choice of the consumer is that bundle in the consumer's budget set that lies on the highest indifferences curve.
+</p>
+
+<p>
+<i>Tran.</i> :消费者的最优选择是这样的商品束，它位于消费者预算集内的最高无差异曲线上。
+</p></li>
+
+<li><p>
+Typically the optimal bundle will be characterized by the condition that the slope of the indifference curve(The MARS) will equal the slope of the budget line.
+</p>
+
+<p>
+<i>Tran.</i> :在最优商品束之处，通常有下列条件： 无差异曲线的斜率（MRS）等于预算线的斜率。
+</p></li>
+
+<li><p>
+If we observe several consumption choices it may be possible to estimate a utility function that would generate that sort of choice behavior.Such a utility function can be used to predict future choices and to estimate the utility to consumers of new econimicspolicies.
+</p>
+
+<p>
+<i>Tran.</i> :如果能够获得某消费者的一些消费选择数据，则可能估计出描述他选择行为的效用函数。这样的效用函数可用来预测他将来的消费选择，或者用估计新经济政策对消费者效用的影响。
+</p></li>
+
+<li><p>
+If everyone faces the same prices for the two goods, then everyone will have the same marginal rate of substitution, and will thus be willing to trade off the two goods in the same way.
+</p>
+
+<p>
+<i>Tran.</i> : 如果每个人面对两种商品的价格是相同的，那么每个人都有相同的边际替代率，因此都愿意按该比率进行商品交易。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge8decc9" class="outline-2">
+<h2 id="orge8decc9"><span class="section-number-2">6.</span> Chapter 6</h2>
+<div class="outline-text-2" id="text-6">
+<ol class="org-ol">
+<li><p>
+The consumer's demand function for a good will in general depend on the prices of all goods and income.
+</p>
+
+<p>
+<i>Tran.</i> :消费者对某商品的需求函数一般取决于所有商品的价格以及他的收入。
+</p></li>
+
+<li><p>
+A normal good is one for which the demand increases when income increases. An inferior good is one for which the demand decreases when income increases.
+</p>
+
+<p>
+<i>Tran.</i> :正常商品的需求随着收入的增加而上升；劣等商品的需求随着收入的增加而减少。
+</p></li>
+
+<li><p>
+An ordinary good is one for which the demand decreases when its price increases. A Giffen good is one for which the demand increases when its price increases.
+</p>
+
+<p>
+<i>Tran.</i> :普通商品的需求随着价格上升而下降；吉芬商品的需求随着价格上升而上升。
+</p></li>
+
+<li><p>
+If the demand for good 1 increases when the price of good 2 increases, then good 1 is a substitute for good 2. If the demand for good 1 decreases in this situation, then it is a complement for good 2.
+</p>
+
+<p>
+<i>Tran.</i> :若商品2的价格上升时商品1的需求增加，则商品1是商品2的替代品；如果该情形下，商品1的需求不是增加而是下降，则商品1是商品2的补充品。
+</p></li>
+
+<li><p>
+The inverse demand function measures the price ath which a given quantity will be demanded. The height of the demand curve at a given level of consumption measures the marginal willinggness to pay for an additional unit of the good at that consumption level.
+</p>
+
+<p>
+<i>Tran.</i> :反需求函数衡量任一既定需求量对应的价格。（反）需求函数在既定消费水平上的高度，衡量在该消费水平上若增加额外一单位商品的消费，消费者的边际支付意愿是多少。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org4927c8e" class="outline-2">
+<h2 id="org4927c8e"><span class="section-number-2">7.</span> Chapter 7</h2>
+<div class="outline-text-2" id="text-7">
+<ol class="org-ol">
+<li><p>
+If one bundle is chosen when another could have been chosen, we say that the first bundle is revealed prefered to the second.
+</p>
+
+<p>
+<i>Tran.</i> :如果消费者在原本可以选择消费束Y的情况下却选择了消费束X，则消费束X被显示偏好于Y，或者简单的说X比Y好。
+</p></li>
+
+<li><p>
+If the consumer is always choosing the most preferred bundles he or she can afford, this means that the chosen bundles musht be preferred to the bundles that were affortable but weren't chosen.
+</p>
+
+<p>
+<i>Tran.</i> :如果消费者总是在他能买得起的消费束中选择他最偏好的，则被选中的消费束一定好于其他能买得起但是又买的消费束。
+</p></li>
+
+<li><p>
+Observing the choices of consumers can allow us to ``recover'' or estimate the preferences that lie behind those choices. The more choices we observe, the more precisely we can estimate the underlying preferences that generated those choices.
+</p>
+
+<p>
+<i>Tran.</i> :可以通过观察消费者的选择行为，来``还原''或者估计隐藏在他的选择行为下的偏好。我们获得的该消费者的选择数据越多，对产生这些选择的潜在偏好估计就越准确。
+</p></li>
+
+<li><p>
+The Weak Axiom of Revealed Preference(WARP) and the Strong Axiom of Revealed Preference(SARP) are necessary conditions that consumer choices have to obey if they are to be consistent with the economic model of optimizing choice.
+</p>
+
+<p>
+<i>Tran.</i> :如果消费者的行为符合最优化选择的经济模型，则他的选择行为必然要满足显示偏好弱公理和显示偏好强公理。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org6c14d8d" class="outline-2">
+<h2 id="org6c14d8d"><span class="section-number-2">8.</span> Chapter 8</h2>
+<div class="outline-text-2" id="text-8">
+<ol class="org-ol">
+<li><p>
+When the price of a good decrease, there will be two effects on consumption. The change in relative prices makes the consumer want to consume more of the cheaper good. The increase in purchasing power due to the lower price may increase or decrease consumption, depending on whether the good is a normal good or an inferior good.
+</p>
+
+<p>
+<i>Tran.</i> :商品1的价格下降将会对消费产生两种效应。首先，商品1价格下降后，两商品的相对价格因此变动，这会使消费者希望多消费相对便宜的商品1；其次由于商品1价格下降，消费者的购买里因此增加，这将导致正常商品的消费增加，劣质商品的消费减少。
+</p></li>
+
+<li><p>
+The change in demand due to the change in relative prices is called the substitution effect; the change due to the change in purchasing power is called the income effect.
+</p>
+
+<p>
+<i>Tran.</i> :由于相对价格变动引起的需求变动成为替代效应；由于购买力变化引起的需求变动称为收入效应。
+</p></li>
+
+<li><p>
+The substitution effect is how demand changes when prices change and purchasing power is held constant, in the sense that the original bundle remains affordable. To hold real purchasing power constant, money income will have to change. The necessay change in money income is given by \(\Delta m=x_{1}\Delta p_{1}\).
+</p>
+
+<p>
+<i>Tran.</i> :替代效应指当价格变动但保持购买力不变（仍能买得起原消费束）时，需求如何变动。为保持实际购买力不变，必须调整货币收入。货币收入调整数额\(\Delta m=x_{1}\Delta p_{1}\)。
+</p></li>
+
+<li><p>
+The Slutsky equation says that the total change in demand is the sum of the substitution effect and the income effect.
+</p>
+
+<p>
+<i>Tran.</i> :斯勒茨基方程是说需求的总变动等于替代效应与收入效应之和。
+</p></li>
+
+<li><p>
+The Law of Demand says that normal goods must have downwardsloping demand curves.
+</p>
+
+<p>
+<i>Tran.</i> :需求定理是说正常商品的需求曲线必然向下倾斜。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org50e83d7" class="outline-2">
+<h2 id="org50e83d7"><span class="section-number-2">9.</span> Chapter 9</h2>
+<div class="outline-text-2" id="text-9">
+<ol class="org-ol">
+<li><p>
+Consumers earn income by selling their endowment of goods.
+</p>
+
+<p>
+<i>Tran.</i> :消费者可以出售禀赋获得收入。
+</p></li>
+
+<li><p>
+The gross demanded for a good is the amount that the consumer ends up consuming. The net demend for a good is the amount the consumer buys. Thus the net demand is the difference between the gross demand and the endowment.
+</p>
+
+<p>
+<i>Tran.</i> :某消费者对某商品的总需求是指他对这种商品的最终消费量。净需求则是指他实际购买的该g商品的数量。因此，净需求等于总需求减去禀赋。
+</p></li>
+
+<li><p>
+The budget constraint has a slope of \(- p_{1} / p_{2}\) and passes through the endowment bundle.
+</p>
+
+<p>
+<i>Tran.</i> :消费者拥有禀赋束情形下，他的预算线的斜率为\(- p_{1} / p_{2}\)，并且经过禀赋束。
+</p></li>
+
+<li><p>
+When a price changes, the value of what the consumer has to sell will change and thereby generate an additional income effect in the Slutsky equation.
+</p>
+
+<p>
+<i>Tran.</i> :当一种商品价格改变时，消费者出售商品的价值也会改变，因此在斯勒茨基方程中多出了一项收入效应，即禀赋收入效应。
+</p></li>
+
+<li><p>
+Labor supply is an interesting example of the interaction of income and substitution effects. Due to the interaction of these two effects, the response of labor supply to a change in the wage rate is ambiguous.
+</p>
+
+<p>
+<i>Tran.</i> : 收入效应与替代效应相互作用的一个有趣例子是消费者的劳动供给决策。由于这两种效应共同作用而且理论上无法说明哪个效应更大，因此工资率上升，劳动供给可能增加也可能减少。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf8feb09" class="outline-2">
+<h2 id="orgf8feb09"><span class="section-number-2">10.</span> Chapter 10</h2>
+<div class="outline-text-2" id="text-10">
+<ol class="org-ol">
+<li><p>
+The budget constraint for intertemporal consumption can be expressed in terms of present value or future value.
+</p>
+
+<p>
+<i>Tran.</i> :跨期消费情形下的预算线可表示为现值的形式，也可以表示为终值的形式。
+</p></li>
+
+<li><p>
+The comparative statics results derived earlier for general choice porblems can be applied to intertemporal consumption as well.
+</p>
+
+<p>
+<i>Tran.</i> :前面对于一般选择问题推导出的比较静态结果，同样适用于跨期消费问题。
+</p></li>
+
+<li><p>
+The real rate of interest measures the extra consumption that you can get in the future by giving up some consumption today.
+</p>
+
+<p>
+<i>Tran.</i> :实际利率衡量你现在放弃一些消费可以换得将来消费的数量。
+</p></li>
+
+<li><p>
+A consumer who can borrow and lend at a constant interest rate should always prefer an endowment with a higher present value to one with a lower present value.
+</p>
+
+<p>
+<i>Tran.</i> :若消费者能以既定利率自由借贷，则他总是更喜欢现值更高的那个禀赋。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf9399e6" class="outline-2">
+<h2 id="orgf9399e6"><span class="section-number-2">11.</span> Chapter 11</h2>
+<div class="outline-text-2" id="text-11">
+<ol class="org-ol">
+<li><p>
+In equilibrium, all assets with certain payoffs must earn the same rate of return. Otherwise there would be a riskless arbitrage opportunity.
+</p>
+
+<p>
+<i>Tran.</i> :均衡时，所有能提供报酬的资产的报酬率必然相等。否则，就存在无风险套利的机会。
+</p></li>
+
+<li><p>
+The fact that all assets must earn the same return implies that all assets will sell for their present value.
+</p>
+
+<p>
+<i>Tran.</i> :所有资产的报酬率必然相等，这意味着它们都是按现值出售的。
+</p></li>
+
+<li><p>
+If assets are taxed differently, or have different risk characteristics, then we must compare their after-tax rates of return or their risk-adjusted rates of return.
+</p>
+
+<p>
+<i>Tran.</i> :如果资产的征税方式不同，或者资产的风险特征不同，那么我们必须比较他们的税后报酬率，或者比较风险调整后的报酬率。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org4f0a566" class="outline-2">
+<h2 id="org4f0a566"><span class="section-number-2">12.</span> Chapter 12</h2>
+<div class="outline-text-2" id="text-12">
+<ol class="org-ol">
+<li><p>
+Consumption in different states of nature can be viewed as consumption goods, and all the analysis of previous chapters can be applied to choice under uncertainty.
+</p>
+
+<p>
+<i>Tran.</i> :你可以把不同自然状态下的消费视为普通的消费品，这样你就可以使用前几章的分析工具研究不确定性情形下的选择问题。
+</p></li>
+
+<li><p>
+Howerever, the utility function that summarizes choice behaviour under uncertainly may have a special structure. In particular, if the untility function is linear in the probabilities, then the untility assigned to a gamble will just be the expected utility of the various outcomes.
+</p>
+
+<p>
+<i>Tran.</i> :然后，在刻画不确定性情形下的选择问题时，你需要使用具有特殊结构的效用函数。特别地，如果效用函数是概率的线性函数，那么你对赌博效用的赋值恰好就是不同结果的期望效用。
+</p></li>
+
+<li><p>
+The curvature of the expected utility function describes the consumer's attitudes toward risk. If it is concave, the consumer is a risk averter; and if it is convex, the consumer is a risk lover.
+</p>
+
+<p>
+<i>Tran.</i> :期望效用函数的曲率（curvature）描述消费者对带风险的态度。如果它是凹的，则消费者就是风险厌恶型；如果是凸的，就是风险偏好者。
+</p></li>
+
+<li><p>
+Financial institutions such as insurance markets and the stock market provide ways for consumers to diversify and spread risks.
+</p>
+
+<p>
+<i>Tran.</i> :金融机构例如保险市场和股票市场，提供各种方法使消费者能够进行多样化投资和分散风险。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org02ffe35" class="outline-2">
+<h2 id="org02ffe35"><span class="section-number-2">13.</span> Chapter 14</h2>
+<div class="outline-text-2" id="text-13">
+<ol class="org-ol">
+<li><p>
+In the case of a discrete good and quasilinear utility, the untility associated with consumption of <i>n</i> units of the discrete good is just the sum of the first <i>n</i> reservation prices.
+</p>
+
+<p>
+<i>Tran.</i> :在拟线性效用的情形下，消费n单位离散商品的效用，正好等于前n个保留价格之和。
+</p></li>
+
+<li><p>
+This sum is the gross benefit of consuming the good. If we subtract the amount spent on the purchase of the good, we get the consumer's surplus.
+</p>
+
+<p>
+<i>Tran.</i> :这个保留价格之和是消费单位离散商品的总收益。如果我们从总收益中减去在该商品上的支出，就得到了（净）消费者剩余。
+</p></li>
+
+<li><p>
+The change in consumer's surplus associated with a price change has a roughly trapzzoidal shape. It can be interpreted as the change in utility associated with the price change.
+</p>
+
+<p>
+<i>Tran.</i> :某商品价格变动引起的消费者剩余变动，在图形上大致为梯形形状。消费者剩余的变动可以解释为价格变动引起的消费者的效用变动。
+</p></li>
+
+<li><p>
+In general, we can use the conpensating variation and the equivalent variation in income to measure the monetary impact of a price change.
+</p>
+
+<p>
+<i>Tran.</i> :一般来说，我们可以使用收入的补偿变化和等价变化来测量价格变化引起的货币影响。
+</p></li>
+
+<li><p>
+If utility is quasilinear, the compensating variation, the equivalent variation, and the change in consumer's surplus are all equal. Even if utility is not quasilinear, the change in consumer's surplus may serve as a good approximation of the impact of the price change on a consumer's utility.
+</p>
+
+<p>
+<i>Tran.</i> : 如果效用是拟线性的，补偿变化、收入变化和消费者剩余的变化都相等。即使效用不是线性，我们也可以使用消费者剩余的变化去近似估计价格变动对消费者效用的影响。
+</p></li>
+
+<li><p>
+In the case of supply behavior we can define a producer's surplus that measures the net benefits to the supplier from producing from producing a given amount.
+</p>
+
+<p>
+<i>Tran.</i> : 生产者剩余是指，供给一定数量的商品时，生产者实际得到的销售收入减去他愿意得到的最低销售收入。
+</p></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge2ec71b" class="outline-2">
+<h2 id="orge2ec71b"><span class="section-number-2">14.</span> Chapter 15</h2>
+<div class="outline-text-2" id="text-14">
+<ol class="org-ol">
+<li><p>
+The market demand curve is simply the sum of the individual demand curves.
+</p>
+
+<p>
+<i>Tran.</i> : 市场需求曲线只是所有个人需求曲线的加总。
+</p></li>
+
+<li><p>
+The reservation price measures the price at which a consumer is just indifferent betweent purchasing or not purchasing a good.
+</p>
+
+<p>
+<i>Tran.</i> : 某消费者的保留价格是指在该价格下，他恰好对买或不买某种商品无差异。
+</p></li>
+
+<li><p>
+The demand function measures quantity as a function of price. The inverse demand function measures price as a function of quantity. A given demand curve can be described in either way.
+</p>
+
+<p>
+<i>Tran.</i> : 需求函数将需求量看成价格的函数。反需求函数将价格看成需求量的函数。给定一个需求函数，如果你能求出他的反函数，那么在图形上，他们是同一条曲线。
+</p></li>
+
+<li><p>
+The elasticity of demand measures the responsiveness of the quantity demanded to price. It is formally defined as the percent change in quantity divided by the percent change in price.
+</p>
+
+<p>
+<i>Tran.</i> : 需求弹性衡量了需求量对价格的反映敏感程度。它的正式定义为需求量变动百分比除以价格变动百分比。
+</p></li>
+
+<li><p>
+If the absolute value of the elasticity of demand is less than 1 at some point, we say that demand is <i>inelastic</i> at that point. If the absolute value of elasticity is greater than 1 at some point, we say demand is <i>elastic</i> at that point. If the absolute value of the elasticity of demand at some point is exactly 1, we say that the demand has unitary elasticity at that point.
+</p>
+
+<p>
+<i>Tran.</i> : 如果某点处的需求价格弹性（绝对值）小于，则称在该点需求是缺乏弹性的。如果某点处的需求价格弹性（绝对值）大于1,则称在该点需求是富有弹性的。如果某点处的需求价格弹性（绝对值）刚好为1,我们说该点的需求是单位弹性。
+</p></li>
+
+<li><p>
+If demand is inelastic at some point, then an increase in quantity will result in a reduction in revenue. If demand is elastic, then an increase in quantity will reuslt in an increase revenue.
+</p>
+
+<p>
+<i>Tran.</i> : 如果需求在某点处是缺乏弹性的，则厂商增加销量会使得销售收入减少。如果在某点处需求富有弹性，则厂商增加销量会使得销售收入增加。
+</p></li>
+
+<li>The marginal revenue is the extra revenue one gets from increasing the quantity sold. The formula relating marginal revenue and elasticity is \(MR=p[1 + 1 / \epsilon ]=p[1 - 1 / |\epsilon|\)</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: silu</p>
+<p class="date">Created: 2023-02-18 六 22:34</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

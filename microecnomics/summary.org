@@ -1,0 +1,262 @@
+#+title: Summary
+
+* Chapter 1
+1) Economics proceeds by making models of social phenomena, which are simplified representations of reality.
+   
+   /Tran./ :通常从构建社会现象的模型开始进行经济分析，这样的模型是现实的简化表示。
+2) In this task,economists are guided by the optimization principle, which states that people typically try to choose what's best for them, and by the equilibrium princile, which says that prices will adjust demand and supply are equal.
+   
+   /Tran./ :在经济分析的任务中，经济学家通常遵循最优化原则和均衡原则，前者是说人们通常尽力选择最好的东西，后者是说价格将一直调整至需求和供给相等为止。
+3) The demand curve measuress how much people wish to demand at each price, and the supply curve measures how much people wish to supply at each price. An equilibrium price is one where the amount demanded equals the amount suppied.
+   
+   /Tran./ :需求曲线描述在每个价格水平上人们愿意需求的数量，供给曲线描述在每个价格水平上的供给数量。均衡价格是需求量等于供给量时的价格。
+4) The study of how the equilibrium price and quantity change when the underlyin conditions change is known as comparative statics.
+   
+   /Tran./ :比较静态分析是研究当相关基本条件改变时，均衡价格和均衡数量如何改变。
+5) The economic situation is Pareto efficient if there is no way to make some group of people better off without making some other group of people worse off.The concept of Pareto efficient can be used to evaluate different ways of allocating resources.
+   
+   /Tran./ :如果不可能在不损害他们利益的情况下使得自己状况变得更好，那么这种经济状态就成为帕累托有效。帕累托有效也可能用于评估资源的不同配置方式。
+* Chapter 2
+1) The budget set consists of all bundles of goods that the consumer can afford at given prices and income. We will typically assume that there are only two goods, but this assumption is more general than is seems.
+   
+   /Tran./ :预算集包含了在给定image和收入水平下消费者能买得起的所有消费束。我们通常假设只有两种商品，这种假设具有较高的代表性。
+2) The budget line is written as $p_{1}x_{1} + p_{2}x_{2} = m$. It has slope of $-p_{1}/p_{2}$, a vertical intercept of $m/p_{2}$, and a horizontal intercept of $m/p_{1}$.
+   
+   /Tran./ :预算线的表达式为$p_{1}x_{1} + p_{2}x_{2} = m$. 它的斜率为$-p_{1}/p_{2}$, 纵截距为$m/p_{2}$, 横截距为$m/p_{1}$。
+3) Increasing incomes shift the budget line outward. Increasing the price of good 1 makes the budget line steeper. Increasing the price of good 2 makes the budget line flatter.
+   
+   /Tran./ :收入的增加会使得预算线向外平行移动。商品1的价格上升会使预算线更陡峭，而商品2的价格上升会使预算线更平坦。
+4) Taxes, subsidies, and rationing change the slope and position of the budget line by changing the prices paid by the consumer.
+   
+   /Tran./ :税收、补贴和配额改变了消费者支付的商品价格，从而改变了预算线的斜率和位置。
+* Chapter 3
+1) Economists assume that a consumer can rank various consumptions possibilities. The way in which the consumer ranks the consumption bundles describe the consumer's preferences.
+   
+   /Tran./ :经济学家假设消费者可对各种消费束进行排序。消费者对消费束的排序方法刻画了他的偏好。
+2) Indifference curves can be used to depict different kinds of preferences.
+   
+   /Tran./ :无差异曲线可以描述不同类型的偏好。
+3) Well-behaved preferences are monotonic(meaning more is better) and convex(meaning averages are preferred to extremes).
+   
+   /Tran./ :良好性状的偏好，既是单挑的（多多益善）又是凸的（即平均束好于端点束）。
+4) The marginal rate of substitution(MRS) measures the slope of the indifference curve. This can be interpreted as how much the consumer is willing to give up of good 2 to acquire more of good 1.
+   
+   /Tran./ :边际替代率等于无差异曲线的斜率。它的意思是说，为了得到更多的商品1,消费者愿意放弃的商品2的数量，即$MRS_{12} = \Delta x_{2}/\Delta x_{1}$。
+* Chapter 4
+1) A utility funciton is simply a way to represnt or summarize a preference ordering. The numerical magnitudes of utility levels have no intrinsic meaning.
+
+   /Tran./ :效用函数只是偏好排序的一种表示方式。效用水平的数字大小没有实际含义。
+
+2) Thus, given any one utility function, any monotonic transformation of it will represent the same preferences.
+
+   /Tran./ :因此，给定任何一个效用函数，它的任何单调变化仍然表示相同的爱好。
+
+3) The marginal rate of substitution, MRS, can be calculated from the utility function via the formula $MRS=\Delta x_{2}/\Delta x_{1} = - MU_{1}/MU_{2}$.
+
+   /Tran./ :边际替代率可以通过效用函数计算，计算公式为：$MRS=\Delta x_{2}/\Delta x_{1} = - MU_{1}/MU_{2}$。
+* Chapter 5
+1) The optimal choice of the consumer is that bundle in the consumer's budget set that lies on the highest indifferences curve.
+
+   /Tran./ :消费者的最优选择是这样的商品束，它位于消费者预算集内的最高无差异曲线上。
+
+2) Typically the optimal bundle will be characterized by the condition that the slope of the indifference curve(The MARS) will equal the slope of the budget line.
+
+   /Tran./ :在最优商品束之处，通常有下列条件： 无差异曲线的斜率（MRS）等于预算线的斜率。
+
+3) If we observe several consumption choices it may be possible to estimate a utility function that would generate that sort of choice behavior.Such a utility function can be used to predict future choices and to estimate the utility to consumers of new econimicspolicies.
+   
+   /Tran./ :如果能够获得某消费者的一些消费选择数据，则可能估计出描述他选择行为的效用函数。这样的效用函数可用来预测他将来的消费选择，或者用估计新经济政策对消费者效用的影响。
+
+4) If everyone faces the same prices for the two goods, then everyone will have the same marginal rate of substitution, and will thus be willing to trade off the two goods in the same way.
+
+   /Tran./ : 如果每个人面对两种商品的价格是相同的，那么每个人都有相同的边际替代率，因此都愿意按该比率进行商品交易。
+* Chapter 6
+1) The consumer's demand function for a good will in general depend on the prices of all goods and income.
+
+   /Tran./ :消费者对某商品的需求函数一般取决于所有商品的价格以及他的收入。
+
+2) A normal good is one for which the demand increases when income increases. An inferior good is one for which the demand decreases when income increases.
+
+   /Tran./ :正常商品的需求随着收入的增加而上升；劣等商品的需求随着收入的增加而减少。
+
+3) An ordinary good is one for which the demand decreases when its price increases. A Giffen good is one for which the demand increases when its price increases.
+
+   /Tran./ :普通商品的需求随着价格上升而下降；吉芬商品的需求随着价格上升而上升。
+
+4) If the demand for good 1 increases when the price of good 2 increases, then good 1 is a substitute for good 2. If the demand for good 1 decreases in this situation, then it is a complement for good 2.
+
+   /Tran./ :若商品2的价格上升时商品1的需求增加，则商品1是商品2的替代品；如果该情形下，商品1的需求不是增加而是下降，则商品1是商品2的补充品。
+
+5) The inverse demand function measures the price ath which a given quantity will be demanded. The height of the demand curve at a given level of consumption measures the marginal willinggness to pay for an additional unit of the good at that consumption level.
+
+   /Tran./ :反需求函数衡量任一既定需求量对应的价格。（反）需求函数在既定消费水平上的高度，衡量在该消费水平上若增加额外一单位商品的消费，消费者的边际支付意愿是多少。
+* Chapter 7
+1) If one bundle is chosen when another could have been chosen, we say that the first bundle is revealed prefered to the second.
+
+   /Tran./ :如果消费者在原本可以选择消费束Y的情况下却选择了消费束X，则消费束X被显示偏好于Y，或者简单的说X比Y好。
+
+2) If the consumer is always choosing the most preferred bundles he or she can afford, this means that the chosen bundles musht be preferred to the bundles that were affortable but weren't chosen.
+
+   /Tran./ :如果消费者总是在他能买得起的消费束中选择他最偏好的，则被选中的消费束一定好于其他能买得起但是又买的消费束。
+
+3) Observing the choices of consumers can allow us to ``recover'' or estimate the preferences that lie behind those choices. The more choices we observe, the more precisely we can estimate the underlying preferences that generated those choices.
+
+   /Tran./ :可以通过观察消费者的选择行为，来``还原''或者估计隐藏在他的选择行为下的偏好。我们获得的该消费者的选择数据越多，对产生这些选择的潜在偏好估计就越准确。
+
+4) The Weak Axiom of Revealed Preference(WARP) and the Strong Axiom of Revealed Preference(SARP) are necessary conditions that consumer choices have to obey if they are to be consistent with the economic model of optimizing choice.
+
+   /Tran./ :如果消费者的行为符合最优化选择的经济模型，则他的选择行为必然要满足显示偏好弱公理和显示偏好强公理。
+* Chapter 8
+1) When the price of a good decrease, there will be two effects on consumption. The change in relative prices makes the consumer want to consume more of the cheaper good. The increase in purchasing power due to the lower price may increase or decrease consumption, depending on whether the good is a normal good or an inferior good.
+
+   /Tran./ :商品1的价格下降将会对消费产生两种效应。首先，商品1价格下降后，两商品的相对价格因此变动，这会使消费者希望多消费相对便宜的商品1；其次由于商品1价格下降，消费者的购买里因此增加，这将导致正常商品的消费增加，劣质商品的消费减少。
+
+2) The change in demand due to the change in relative prices is called the substitution effect; the change due to the change in purchasing power is called the income effect.
+
+   /Tran./ :由于相对价格变动引起的需求变动成为替代效应；由于购买力变化引起的需求变动称为收入效应。
+
+3) The substitution effect is how demand changes when prices change and purchasing power is held constant, in the sense that the original bundle remains affordable. To hold real purchasing power constant, money income will have to change. The necessay change in money income is given by $\Delta m=x_{1}\Delta p_{1}$.
+
+   /Tran./ :替代效应指当价格变动但保持购买力不变（仍能买得起原消费束）时，需求如何变动。为保持实际购买力不变，必须调整货币收入。货币收入调整数额$\Delta m=x_{1}\Delta p_{1}$。
+
+4) The Slutsky equation says that the total change in demand is the sum of the substitution effect and the income effect.
+
+   /Tran./ :斯勒茨基方程是说需求的总变动等于替代效应与收入效应之和。
+
+5) The Law of Demand says that normal goods must have downwardsloping demand curves.
+
+   /Tran./ :需求定理是说正常商品的需求曲线必然向下倾斜。
+* Chapter 9
+1) Consumers earn income by selling their endowment of goods.
+
+   /Tran./ :消费者可以出售禀赋获得收入。
+
+2) The gross demanded for a good is the amount that the consumer ends up consuming. The net demend for a good is the amount the consumer buys. Thus the net demand is the difference between the gross demand and the endowment.
+
+   /Tran./ :某消费者对某商品的总需求是指他对这种商品的最终消费量。净需求则是指他实际购买的该g商品的数量。因此，净需求等于总需求减去禀赋。
+
+3) The budget constraint has a slope of $- p_{1} / p_{2}$ and passes through the endowment bundle.
+
+   /Tran./ :消费者拥有禀赋束情形下，他的预算线的斜率为$- p_{1} / p_{2}$，并且经过禀赋束。
+
+4) When a price changes, the value of what the consumer has to sell will change and thereby generate an additional income effect in the Slutsky equation.
+
+   /Tran./ :当一种商品价格改变时，消费者出售商品的价值也会改变，因此在斯勒茨基方程中多出了一项收入效应，即禀赋收入效应。
+
+5) Labor supply is an interesting example of the interaction of income and substitution effects. Due to the interaction of these two effects, the response of labor supply to a change in the wage rate is ambiguous.
+
+   /Tran./ : 收入效应与替代效应相互作用的一个有趣例子是消费者的劳动供给决策。由于这两种效应共同作用而且理论上无法说明哪个效应更大，因此工资率上升，劳动供给可能增加也可能减少。
+* Chapter 10
+1) The budget constraint for intertemporal consumption can be expressed in terms of present value or future value.
+
+   /Tran./ :跨期消费情形下的预算线可表示为现值的形式，也可以表示为终值的形式。
+
+2) The comparative statics results derived earlier for general choice porblems can be applied to intertemporal consumption as well.
+
+   /Tran./ :前面对于一般选择问题推导出的比较静态结果，同样适用于跨期消费问题。
+
+3) The real rate of interest measures the extra consumption that you can get in the future by giving up some consumption today.
+
+   /Tran./ :实际利率衡量你现在放弃一些消费可以换得将来消费的数量。
+
+4) A consumer who can borrow and lend at a constant interest rate should always prefer an endowment with a higher present value to one with a lower present value.
+
+   /Tran./ :若消费者能以既定利率自由借贷，则他总是更喜欢现值更高的那个禀赋。
+* Chapter 11
+1) In equilibrium, all assets with certain payoffs must earn the same rate of return. Otherwise there would be a riskless arbitrage opportunity.
+
+   /Tran./ :均衡时，所有能提供报酬的资产的报酬率必然相等。否则，就存在无风险套利的机会。
+
+2) The fact that all assets must earn the same return implies that all assets will sell for their present value.
+
+   /Tran./ :所有资产的报酬率必然相等，这意味着它们都是按现值出售的。
+
+3) If assets are taxed differently, or have different risk characteristics, then we must compare their after-tax rates of return or their risk-adjusted rates of return.
+
+   /Tran./ :如果资产的征税方式不同，或者资产的风险特征不同，那么我们必须比较他们的税后报酬率，或者比较风险调整后的报酬率。
+* Chapter 12
+1) Consumption in different states of nature can be viewed as consumption goods, and all the analysis of previous chapters can be applied to choice under uncertainty.
+
+   /Tran./ :你可以把不同自然状态下的消费视为普通的消费品，这样你就可以使用前几章的分析工具研究不确定性情形下的选择问题。
+
+2) Howerever, the utility function that summarizes choice behaviour under uncertainly may have a special structure. In particular, if the untility function is linear in the probabilities, then the untility assigned to a gamble will just be the expected utility of the various outcomes.
+
+   /Tran./ :然后，在刻画不确定性情形下的选择问题时，你需要使用具有特殊结构的效用函数。特别地，如果效用函数是概率的线性函数，那么你对赌博效用的赋值恰好就是不同结果的期望效用。
+
+3) The curvature of the expected utility function describes the consumer's attitudes toward risk. If it is concave, the consumer is a risk averter; and if it is convex, the consumer is a risk lover.
+
+   /Tran./ :期望效用函数的曲率（curvature）描述消费者对带风险的态度。如果它是凹的，则消费者就是风险厌恶型；如果是凸的，就是风险偏好者。
+
+4) Financial institutions such as insurance markets and the stock market provide ways for consumers to diversify and spread risks.
+
+   /Tran./ :金融机构例如保险市场和股票市场，提供各种方法使消费者能够进行多样化投资和分散风险。
+* Chapter 14
+1) In the case of a discrete good and quasilinear utility, the untility associated with consumption of /n/ units of the discrete good is just the sum of the first /n/ reservation prices.
+
+   /Tran./ :在拟线性效用的情形下，消费n单位离散商品的效用，正好等于前n个保留价格之和。
+
+2) This sum is the gross benefit of consuming the good. If we subtract the amount spent on the purchase of the good, we get the consumer's surplus.
+
+
+  /Tran./ :这个保留价格之和是消费单位离散商品的总收益。如果我们从总收益中减去在该商品上的支出，就得到了（净）消费者剩余。
+
+3) The change in consumer's surplus associated with a price change has a roughly trapzzoidal shape. It can be interpreted as the change in utility associated with the price change.
+
+   /Tran./ :某商品价格变动引起的消费者剩余变动，在图形上大致为梯形形状。消费者剩余的变动可以解释为价格变动引起的消费者的效用变动。
+
+4) In general, we can use the conpensating variation and the equivalent variation in income to measure the monetary impact of a price change.
+
+   /Tran./ :一般来说，我们可以使用收入的补偿变化和等价变化来测量价格变化引起的货币影响。
+
+5) If utility is quasilinear, the compensating variation, the equivalent variation, and the change in consumer's surplus are all equal. Even if utility is not quasilinear, the change in consumer's surplus may serve as a good approximation of the impact of the price change on a consumer's utility.
+
+   /Tran./ : 如果效用是拟线性的，补偿变化、收入变化和消费者剩余的变化都相等。即使效用不是线性，我们也可以使用消费者剩余的变化去近似估计价格变动对消费者效用的影响。
+
+6) In the case of supply behavior we can define a producer's surplus that measures the net benefits to the supplier from producing from producing a given amount.
+
+   /Tran./ : 生产者剩余是指，供给一定数量的商品时，生产者实际得到的销售收入减去他愿意得到的最低销售收入。
+* Chapter 15
+1) The market demand curve is simply the sum of the individual demand curves.
+
+   /Tran./ : 市场需求曲线只是所有个人需求曲线的加总。
+
+2) The reservation price measures the price at which a consumer is just indifferent betweent purchasing or not purchasing a good.
+
+   /Tran./ : 某消费者的保留价格是指在该价格下，他恰好对买或不买某种商品无差异。
+
+3) The demand function measures quantity as a function of price. The inverse demand function measures price as a function of quantity. A given demand curve can be described in either way.
+
+   /Tran./ : 需求函数将需求量看成价格的函数。反需求函数将价格看成需求量的函数。给定一个需求函数，如果你能求出他的反函数，那么在图形上，他们是同一条曲线。
+
+4) The elasticity of demand measures the responsiveness of the quantity demanded to price. It is formally defined as the percent change in quantity divided by the percent change in price.
+
+   /Tran./ : 需求弹性衡量了需求量对价格的反映敏感程度。它的正式定义为需求量变动百分比除以价格变动百分比。
+
+5) If the absolute value of the elasticity of demand is less than 1 at some point, we say that demand is /inelastic/ at that point. If the absolute value of elasticity is greater than 1 at some point, we say demand is /elastic/ at that point. If the absolute value of the elasticity of demand at some point is exactly 1, we say that the demand has unitary elasticity at that point.
+
+   /Tran./ : 如果某点处的需求价格弹性（绝对值）小于，则称在该点需求是缺乏弹性的。如果某点处的需求价格弹性（绝对值）大于1,则称在该点需求是富有弹性的。如果某点处的需求价格弹性（绝对值）刚好为1,我们说该点的需求是单位弹性。
+
+6) If demand is inelastic at some point, then an increase in quantity will result in a reduction in revenue. If demand is elastic, then an increase in quantity will reuslt in an increase revenue.
+
+   /Tran./ : 如果需求在某点处是缺乏弹性的，则厂商增加销量会使得销售收入减少。如果在某点处需求富有弹性，则厂商增加销量会使得销售收入增加。
+
+7) The marginal revenue is the extra revenue one gets from increasing the quantity sold. The formula relating marginal revenue and elasticity is $MR=p[1 + 1 / \epsilon ]=p[1 - 1 / |\epsilon|]$.
+
+   /Tran./ :边际收入是指增加销量得到的额外收入。
+
+8) If the invers demand curve is a linear function $p(q)=a-bq$,then the marginal revenue is given by $MR=a-2bq$.
+
+   /Tran./ :如果反去需求函数是一个线性函数，$p(q)=a-bq$，则边际收入为$MR(q)=a-2bq$。
+
+9) Income elasticity measures the responsiveness of the quantity demanded to income. It is formally defined as the percent change in quantity divided by the percent change in income.
+
+   /Tran./ :需求的收入弹性衡量了需求量对收入变动的反应敏感程度。它的正式定义为需求量的变动百分比除以收入的变动百分比。
+* Chapter 16
+1) The supply curve measures how much people will be willing to supply of some good at each price.
+
+   /Tran./ :供给曲线衡量在每一个价格水平上人们愿意供给某商品的数量的多少。
+
+2) An equilibrium price is one where the quantity that people are willing to supply equals the quantity that people are willing wo demand.
+
+   /Tran./ : 均衡价格是指在该价格水平上，人们愿意供给的数量等于人们愿意需求的数量。
+
