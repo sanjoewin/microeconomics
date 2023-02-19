@@ -1,5 +1,5 @@
 #+title: Summary
-
+#+LATEX_HEADER: \usepackage{fontspec}
 * Chapter 1
 1) Economics proceeds by making models of social phenomena, which are simplified representations of reality.
    
@@ -162,34 +162,6 @@
 4) A consumer who can borrow and lend at a constant interest rate should always prefer an endowment with a higher present value to one with a lower present value.
 
    /Tran./ :若消费者能以既定利率自由借贷，则他总是更喜欢现值更高的那个禀赋。
-* Chapter 11
-1) In equilibrium, all assets with certain payoffs must earn the same rate of return. Otherwise there would be a riskless arbitrage opportunity.
-
-   /Tran./ :均衡时，所有能提供报酬的资产的报酬率必然相等。否则，就存在无风险套利的机会。
-
-2) The fact that all assets must earn the same return implies that all assets will sell for their present value.
-
-   /Tran./ :所有资产的报酬率必然相等，这意味着它们都是按现值出售的。
-
-3) If assets are taxed differently, or have different risk characteristics, then we must compare their after-tax rates of return or their risk-adjusted rates of return.
-
-   /Tran./ :如果资产的征税方式不同，或者资产的风险特征不同，那么我们必须比较他们的税后报酬率，或者比较风险调整后的报酬率。
-* Chapter 12
-1) Consumption in different states of nature can be viewed as consumption goods, and all the analysis of previous chapters can be applied to choice under uncertainty.
-
-   /Tran./ :你可以把不同自然状态下的消费视为普通的消费品，这样你就可以使用前几章的分析工具研究不确定性情形下的选择问题。
-
-2) Howerever, the utility function that summarizes choice behaviour under uncertainly may have a special structure. In particular, if the untility function is linear in the probabilities, then the untility assigned to a gamble will just be the expected utility of the various outcomes.
-
-   /Tran./ :然后，在刻画不确定性情形下的选择问题时，你需要使用具有特殊结构的效用函数。特别地，如果效用函数是概率的线性函数，那么你对赌博效用的赋值恰好就是不同结果的期望效用。
-
-3) The curvature of the expected utility function describes the consumer's attitudes toward risk. If it is concave, the consumer is a risk averter; and if it is convex, the consumer is a risk lover.
-
-   /Tran./ :期望效用函数的曲率（curvature）描述消费者对带风险的态度。如果它是凹的，则消费者就是风险厌恶型；如果是凸的，就是风险偏好者。
-
-4) Financial institutions such as insurance markets and the stock market provide ways for consumers to diversify and spread risks.
-
-   /Tran./ :金融机构例如保险市场和股票市场，提供各种方法使消费者能够进行多样化投资和分散风险。
 * Chapter 14
 1) In the case of a discrete good and quasilinear utility, the untility associated with consumption of /n/ units of the discrete good is just the sum of the first /n/ reservation prices.
 
@@ -259,4 +231,382 @@
 2) An equilibrium price is one where the quantity that people are willing to supply equals the quantity that people are willing wo demand.
 
    /Tran./ : 均衡价格是指在该价格水平上，人们愿意供给的数量等于人们愿意需求的数量。
+
+3) The study of how the equilibrium price and quantity change when the underlying demand and supply curves change is another example of comparative statics.
+
+   /Tran./ : 需求曲线和供给曲线移动时，均衡价格和均衡需求是如何变动的？ 这是一个比较静态分析的问题。
+
+4) When a good is taxed, there will always be two prices: the price paid by the demands and the price recieved by the suppliers. The difference between the two represents the amount of the tax.
+
+   /Tran./ : 对某种商品征税时，通常存在两种价格：需求者支付的价格和供给者得到的价格。二者之差就是的那位税额。
+
+5) How much of a tax gets passed along to consumers depends on the relative steepness of the demand and supply curves. If the supply curve is horizontal, all of the tax gets passed along to consumers; if the supply curve is vertical, none of the tax gets passed along.
+
+   /Tran./ : 供给者能像消费者转嫁到多少税收取决于供给曲线相对于需求曲线的倾斜程度。如果供给曲线是水平的，全部税收都转嫁给了消费者；如果供给曲线是垂直的，则转嫁给消费者的税收等于零。
+
+6) The deadweight loss of a tax is the net loss in consumers' surplus plus producers' surplus  that arises from imposing the tax. It measures the value of the output that is not sold due to the presence of the tax.
+
+   /Tran./ : 收税额外损失（deadweight loss）等于税收引起的消费者剩余的净损失（net loss）和生产者剩余的净损失之和。它衡量征税导致的产量损失的价值。
+
+7) A situation is Pareto efficient if there is no way to make some group of people better without making some other group wores off.
+
+   /Tran./ : 帕累托有效是指，如果无法做到不损害他人的情形下，使得自己变好。
+
+8) The Pareto efficient amount of output to supply in a single market is that amount where the demand and supply curves cross, since this is the only point where the amount that demanders are willing to pay for an extra unit of output equals the price at which suppliers are willing to supply an extra unit of output.
+
+   /Tran./ :某商品市场的帕累托有效产量是指需求曲线和供给曲线相交处对应的产量，因为只有在这一点上，需求者愿意为额外一单位产量支付的数量等于供给者愿意为额外一单位提供的数量是相等的。
+* Chapter 17
+1) Statistics can be used to summarize, esimate, test, and predict.
+
+   /Tran./ :  统计学。。。。。
+2) Omitted variable bias occurs when the analyst fails to include an important variable in the regression that is correlated with other variables. In this case the omitted variable is known as a confounding variable.
+
+   /Tran./ : 忽略变量偏误是指分析师未在回归模型中包括一个重要变量，而该变量与其他变量存在相关性。在这种情况下，被忽略的变量被称为混淆变量。
+3) Observational data can only tell us about correlations, but we normally need experiments to determine causality.
+
+   /Tran./ : 观察数据只能告诉我们有关的相关性，但是通常需要用实验来确定因果关系。
+4) However, in some cases there are natural experiments that can be useful in answering questions of interest.
+
+   /Tran./ : 然而，在某些情况下，存在自然实验可以有助于回答感兴趣的回答。
+5) It is important to distinguish between the effect of a policy that applies to the entire population and the effect of a policy that applies only to those who choose to participate.
+
+   /Tran./ : 重要的是要区分适用于整个人群的政策效应和适用于选择参与者的政策效应。
+6) In general, in evaluating a policy proposal, the experiment used should be as close as possible to the policy being considered.
+
+   /Tran./ : 通常情况下，在估计一个政策建议时，选择的实验要尽可能地接近所考虑的政策。
+* Chapter 18
+1) Auctions have been used for thousands of years to sell things.
+
+   /Tran./ : 拍卖。。。。
+   
+2) If each bidder's value is independent of the other bidders, the auction is said to be a private-value auction. If the value of the item being sold is essentially the same of everyone, the auction is said to be a common-value auction.
+
+   /Tran./ : 如果每个竞标者的价值独立于其他竞标者，那么拍卖被称为私人价值拍卖。如果正在出售的物品价值对所有人来说基本相同，那么拍卖被称为共同价值拍卖。
+   
+3) Common auction forms are the English auction, the Dutch auction, the sealed-bid auction, and the Vickrey auction.
+
+   /Tran./ : 常见的拍卖形式包括英式拍卖，荷兰式拍卖，密封竞拍拍卖和维克里拍卖。
+   
+4) English auctions and Vickrey auctions have the desirable property that their outcomes are Pareto efficient.
+
+   /Tran./ : 这两个拍卖是帕累托有效的。
+   
+5) Profit-maximizing auctions typically require a strategic choice of the reservation price.
+
+   /Tran./ : 利润最大化的拍卖通常要战略性地选择保留价。
+   
+6) Despite their advantages as market mechanisms, auctions are vulnerable to collusion and other forms of strategic behavior.
+
+   /Tran./ : 虽然作为市场规则，拍卖具有先进性，拍卖很容易受到勾结和其他形式的战略性行为的影响。
+* Chapter 19
+1) The technological constraints of the firm are described by the production set, which depicts all the technologically feasible combinations of inputs and outputs, and by the production function, which gives the maximum amount of output associated with a given amount of the inputs.
+
+   /Tran./ : 公司的技术限制由生产集和生产函数描述。生产集描述了所有技术上可行的输入和输出组合，而生产函数则给出了在给定数量的输入情况下，相关的最大输出量。
+   
+2) Another way to describe the technological constraints facing a firm is through the use of isoquants--curves that indicate all the combinations of inputs capable of producing a given level of output.
+
+   /Tran./ : 描述公司面临的技术限制的另一种方法是使用等量曲线，这些曲线指示所有能够生产给定产量的所有输入组合。
+   
+3) We generally assume that isoquants are convex and monotonic, just like well-behaved preference.
+
+   /Tran./ : 我们通常认为等量曲线是凸的，且单调的，就像行为良好的偏好。
+   
+4) The marginal product measures the extra output per extra unit of an input, holding all other inputs fixed. We typically assume that the marginal product of an input diminishes as we use more and more of that input.
+
+   /Tran./ : 边际产量是指每增加一个单位的输入，增加的额外产量，同时保持其他输入不变。我们通常认为随着输入的不断变大，边际产量会减小。
+   
+5) The technical rate of substitution measures the slope of an isoquant. We generally assume that the TRS diminishes as we move out along an isoquant--which is another way of saying that the isoquant has a convex shape.
+
+   /Tran./ : 技术替代率度量等量曲线的斜率，我们通常假设随着我们沿着等量曲线向外移动，技术替代率递减，这是另外一种说等量曲线是凸形的说法。
+   
+6) In the short run some inputs are fixed, while in the long run all inputs are variable.
+
+   /Tran./ : 在短期内，部分投入是固定的，但是在长期中所有投入都是变化的。
+   
+7) Returns to scale refers to the way that output changes as we change the /scale/ of production. If we scale all inputs by some amount /t/ and output goes up by the same factor, then we have constant returns to scale. If output scales up by more that /t/, we have increasing returns to scale; and if it scales up by less than /t/, we have decreasing returns to scale.
+
+   /Tran./ : 规模报酬指的是当我们改变生产规模产出的变化方式。我们如果将所有的输入因素扩大 /t/ 倍，产出也同比例增加，那么我们就具有恒定规模报酬。如果产出的规模比 /t/ 增加更多，我们就具有递增的规模报酬；产出归纳比 /t/ 增加更少，我们就具有递减的规模报酬。
+* Chapter 20
+1) Profits are the difference betweent revenues and costs. In this definition it is important that all costs be measured using the appropriate market prices.
+
+   /Tran./ : 利润等于收入减去成本。在这个定义中要记住，所有成本必须以合适的市场价格衡量。
+
+2) Fixed factors are factors whose amount is independent of the level of output; variable factors are factors whose amount used changes as the level of output changes.
+
+   /Tran./ : 与产量无关的要素称为固定要素；与产量多少有关的要素成为可变要素。
+
+3) In the short run, some factors must be used in predetermined amounts. In the long run, all factors are free to vary.
+
+   /Tran./ : 在短期中，某些生产要素的数量是事先决定的；在长期中，所有要素均可以自由变动。
+
+4) If the firm is maximizing profits, then the value of the marginal product of each factor that it is free to vary must equal its factor price.
+
+   /Tran./ : 如果企业是追求利润最大化的，则每种可变要素的边际产量价值必须等于该要素自身的价格。
+
+5) The logic of profit maximization implies that the supply function of a competitive firm must be an increasing function of the price of output and that each factor demand function must be a decreasing function of its price.
+
+   /Tran./ : 利润最大化的逻辑：一家竞争性企业的供给函数，必定是产品价格的增函数；该企业对每种要素的需求函数必然是该要素自身价格的减函数。
+
+6) If a competitive firm exhibits constant returns to scale, then its long-run maximum profits must be zero.
+
+   /Tran./ : 如果一家竞争性企业的生产技术是规模报酬不变的，那么他的长期最大利润必定是零。
+* Chapter 21
+1) The cost function, $c(w_{1}, w_{2}, y)$, measures the minimum costs of producing a given level of output at given factor prices.
+
+   /Tran./ : 成本函数$c(w_{1}, w_{2}, y)$，衡量企业在既定要素价格情形下生产一定产量的最小成本。
+
+2) Cost-minimizing behavior imposese observable restrictions on choices that firms make. In particular, conditional factor demand functions will be negatively sloped.
+
+   /Tran./ : 企业的选择决策必须遵循成本最小化行为假设。特别地，有附加条件的要素需求函数向下倾斜，即斜率为负。
+
+3) There is an intimate relationship between the returns to scale exhibited by the technology and the behavior of the cost function. /Increasing/ returns to scale implies /decreasing/ average cost, /decreasing/ returns to scale implies /increasing/ average cost, and /constant/ returns to scale implies /constant/ average cost.
+
+   /Tran./ : 成本函数和技术的规模报酬类型关系密切。规模报酬递增意味者平均成本递减，规模报酬递减意味者平均成本递增，规模报酬不变意味着平均成本不变。
+
+4) Sunks costs are costs that are not recoverable.
+
+   /Tran./ : 沉没成本指不可回收的成本。
+* Chapter 22
+1) Average costs are composed of average variable costs plus average fixed costs. Average fixed costs always decline with output, while average variable cost tend to increase. The net result is a U-shaped average cost curve.
+
+   /Tran./ : 平均成本等于平均可变成本与平均固定成本之和。平均固定成本总是随着产量的增加而下降，而平均可变成本则随着产量的增加最终会上升。这两种效应使得平均成本曲线为U型。
+
+2) The marginal cost curve lies below the average cost curve when average costs are decreasing, and above when they are increasing. Thus marginal costs must equal average costs at the point of minimum average costs.
+
+   /Tran./ : 当平均成本曲线下降时，边际成本曲线位于平均成本曲线的下方；当平均成本曲线上升时，边际成本曲线位于平均成本曲线的上方。因此，边际成本曲线必然穿过平均成本曲线的最低点，即该点上，边际成本和平均成本必定相等。
+
+3) The area under the marginal cost curve meansures the variable costs.
+
+   /Tran./ : 在边际成本曲线的下方区域面积代表了总的可变成本。
+
+4) The long-run average cost curve is the lower envelope of the short-run average cost curves.
+
+   /Tran./ : 长期平均成本曲线是短期平均成本曲线的下包路线。
+* Chapter 23
+1) The relationship between the price a firm changes and the output that it sells is known as the demand curve facing the firm. By definition, a competitive firm faces a horizontal demand curves whose height is detemined by the market price --the price charged by the other firms in the market.
+
+   /Tran./ : 企业对其产品所要的价格和销售量之间的关系，称为企业面临的需求曲线。根据定义，竞争性企业面对的需求曲线是一条水平线，它的高度由市场价格决定，即由其他的企业所要的价格决定。
+
+2) The (short-run) supply curve of a competitive firm is that portion of its (short-run) marginal cost curve that is upward sloping and lies above the average variable cost curve.
+
+   /Tran./ : 竞争性企业的（短期）供给曲线是它的（短期）边际成本曲线的一部分，准确地说是位于平均可变成本曲线上方的那部门边际成本曲线。
+
+3) The change in producer's surplus when the market price changes from $p_{1}$ to $p_{2}$ is the area to the left of the marginal cost curve betweent $p_{1}$ and $p_{2}$. It also measures the firm's change in porfits.
+
+   /Tran./ : 当市场价格由$p_{1}$变为$p_{2}$时，由此引起的的生产者剩余变动，等于边际成本曲线左侧$p_{1}$和$p_{2}$这两条价格线之间区域的面积。这个面积同时衡量了企业利润的变动。
+
+4) The long-run supply curve of a firm is that portion of its long-run marginal cost curve that is upward sloping and that lies above its long-run average cost curve.
+
+   /Tran./ : 企业的长期供给曲线是长期边际成本曲线的一部分，准确来说，是位于长期平均成本曲线上方的那一段边际成本曲线。
+* Chapter 24
+1) The short-run supply curve of an industry is just horizontal sum of the supply curves of the individual firms in that industry.
+
+   /Tran./ : 某行业的短期供给曲线，是该行业内所有企业的短期供给曲线在水平方向上的加和。
+
+2) The long-run supply curve of an industry must take into account the exit and entry of firms in the industry.
+
+   /Tran./ : 某行业的长期供给曲线必须考虑进入和推出该行业的企业所带来的影响。
+
+
+3) /Tran./ :如果某行业允许自由进出，则处嗯其均衡时行业内的企业数量，是保证企业取得非负利润时行业能容纳的最大企业数量。 这就是说，竞争性行业的长期供给曲线基本是一条水平线，这条水平线的高度等于平均水平的最小值。
+   If there is free entry and exit, then the long-run equilibrium will involve the maximum number of firms consistent with nonnegative profits. This means that the long-run supply curve will be essentially horiziontal at a price equal to the minimum average cost.
+
+4) If there are forces preventing the entry of firms into a profitable industry, the factors that prevent entry will earn economic rents. The rent earned is determined by the price of the output of the industry.
+
+   /Tran./ : 如果存在阻止企业进入某盈利行业的生产要素，那么这些要素就能赚取经济租。经济租大小取决于该行业产品的价格。
+* Chapter 25
+1) When there is only a single firm in an industry, we say that is a monopoly.
+
+   /Tran./ : 当某行业中只有一个企业时，我们称为垄断。
+
+2) A monopolist operates at a point where marginal revenue equals marginal cost. Hence a monopolist charges a price that is a markup on marginal cost, where the size of the markup depends on the elasticity of demand.
+
+   /Tran./ : 垄断企业在边际收入等于边际成本之处生产。因此，垄断企业索要的价格是基于边际成本的加成价，加成幅度取决于需求弹性。
+
+3) Since a monopolist charges a price in excess of marginal cost, it will produce an inefficient amount of output. The size of the inefficiency can be measured by the deadweight loss -- the net loss of consumers' and the producer's surplus.
+
+   /Tran./ : 由于垄断企业的要价大于边际成本，它的产量是低效的。不足部分的大小可以用净损失衡量，即消费者剩余和生产者剩余的损失之和。
+
+4) A natural monopoly occurs when a firm cannot operate at an efficient level of output without losing money. Many public utilities are natural monopolies of this sort and are therefore regulated by the government.
+
+   /Tran./ :  当企业生产有效率的产量出现亏损，则称为自然垄断企业。很多事业单位都是自然垄断，需要政府管制。
+
+5) Whether an industry is competitive or monopolized depends in part on the nature of technology. If the minimum efficient scale is large relative to demand, then the market is likely to be monopolized. But if the minimum efficient scale is small relative to demand, there is room for many firms in the industry, and there is a hope for a competitive market structure.
+
+   /Tran./ : 该行业是竞争型还是垄断型的，部分取决于生产技术的性质。如果最小有效率的规模比市场需求规模还大，则市场可能是垄断市场；相反，可能就是竞争市场。
+* Chapter 26
+1) There will typically be an incentive for a monopolist to engage in pirce discrimination of some sort.
+
+   /Tran./ : 垄断企业通常有实施某种价格歧视的激励。
+
+2) Perfect price discrimination involves charging each customer a different take-in-or-leave-it price. This will result in an efficient level of output.
+
+   /Tran./ : 完全价格歧视是指企业对每个消费者索要不同的价格，这个价格通常具有“要么买，要么走”的性质。这种情形下的产量水平是有效率的。
+
+3) If a firm can charge different prices in two different markets, it will tend to charge the lower price in the market with more elastic demand.
+
+   /Tran./ : 如果企业可以对两个不同的市场索要不同的价格，那么它总是向需求缺乏弹性的市场索要较高的价格，向需求富有弹性的市场索要较低的价格。
+
+4) If a firm can set a two-part tariff, and consumers are indentical, then it will generally want to set price equal to marginal cost and make all of its profits form the entry fee.
+
+   /Tran./ : 如果一个企业可以设置两部分收费策略，且消费者四海相同的，那么它经常会将价格设定为边际成本，从而全部利润都来源于入场费用。
+
+5) The industry structure known as monopolistic competition refers to a situation in which there is product differentiation, so each firm has some degree of monopoly power, but there is also free entry so that profits are driven to zero.
+
+   /Tran./ : 垄断竞争的行业结构，是指在这种行业中存在产品差异化，因此每个企业都有某种程度的垄断力量，但是由于这种市场能够自由进入，从而利润趋于零。
+
+6) Monopolistic competition can result in too much or too little product differentiation in general.
+
+   /Tran./ : 垄断竞争一般会导致产品差异化不足或产品差异化过度。
+* Chapter 27
+1) A profit-maximizing firm always wants to set the marginal revenue of each action it takes equal to the marginal cost of that action.
+
+   /Tran./ : 追求利润最大化的企业总是希望它的每一项行动的边际收入，等于该行动的边际成本。
+
+2) In the case of a monopolist, the marginal revenue associated with an increase in the employment of a factor is called the marginal revenue product.
+
+   /Tran./ : 在垄断的情形下，增加要素使用量带来的边际收入成为边际产品收入。
+
+3) For a monopolist, the marginal revenue product will always be smaller than the value of the marginal product due to the fact that the marginal revenue from increasing output is always less than price.
+
+   /Tran./ : 对于一个垄断企业来说，它的边际产品收入总是小于边际产品价值，这是由于增加产量带来的边际收入总是小于产品的价格。
+
+4) Just as a monopolist consists of a market with a single seller, a monopsony consists of a market with a single buyer.
+
+   /Tran./ : 和垄断市场上只有一个卖家类似，买方垄断即市场上只有一个买方。
+
+5) For a monopsonist the marginal cost curve associated with a factor will be steeper than the supply curve of that factor.
+
+   /Tran./ : 对于买方垄断来说，某该素的边际成本曲线要比供给曲线更陡峭。
+
+6) Hence a monopsonist will hire an inefficient small amount of the factor of production.
+
+   /Tran./ : 因此，买方垄断企业的产量是低效率的，因为这个产量小于若该企业为竞争企业的产量。
+
+7) If an upstream monopolist sells a factor to a downstream monopolist, then the final price of output will be too high due to the double markup phenomenon.
+
+   /Tran./ : 若某上游垄断企业将产品卖给一个下游垄断企业，该下游企业将这些产品作为生产要素使用。那么下游企业的产品价格将会很高，原因在于双重加价。
+* Chapter 28
+1) An oligopoly is characterized by a market with a few firms that recognize their strategic interdependence. These are several possible ways for oligopolies to behave depending on the extra nature of their interacition.
+
+   /Tran./ : 寡头垄断行业的特征是市场中有一些企业但是数量不是很多，而且这些企业认识道他们的策略是彼此依赖的。寡头企业的行为有多种方式，这取决于企业互动的具体性质。
+
+2) In the quantity-leader (Stackelberg) model one firm leads by setting its output, and the other firm follows. When the leader chooses an outpu, it will take into account how the follower will response.
+
+   /Tran./ : 在产量领导（斯坦科尔伯格）模型中，一个企业率先作出产量决策而处于领导者的地位，其他企业追随。当领导者制定产量决策时，它必须考虑追随者如何作出反映。
+
+3) In the price-leader model, one firm sets its price, and the other firm choose how much it wants to supply at that price. Again the leader has to take into account the behavior of the follower when it makes its decision.
+
+   /Tran./ : 在价格领导模型中，一个企业制定价格，其他企业决定按照该价格应出售多少产品。同样地，价格领导者在制定价格决策的时候也要考虑追随者们的行为。
+
+4) In the Cournot model, each firm chooses its output so as to maximize its profits given its beliefs about the other firm's choice. In equilibrium each firm finds that its expection about the other firm's choice is confirmed.
+
+   /Tran./ : 在古诺模型中，给定其他企业的选择，每个企业选择自己的产量使得它自己的利润最大化。在均衡时，每个企业发现它对某个企业预测的产量，就是那个企业的实际产量。
+
+5) A Cournot equilibrium in which each firm has a small market share implies that price will be very close to marginal cost -- that is, the industry will be nearly competitive.
+
+   /Tran./ : 如果行业中企业数量众多，每个企业的市场份额很小，那么古诺均衡时的市场价格非常接近每个企业的边际成本，也就是说这个行业基本上是完全竞争的。
+
+6) In the Bertrand model each firm choose its price given its beliefs about the price that the other firm will choose. The only euqilibrium price is the competitive equilibrium.
+
+   /Tran./ : 在伯兰特模型中，给定每个企业对另外企业选择价格的预测，它选择能使自己利润最大的价格。唯一的均衡价格是竞争均衡价格。
+
+7) A cartel consists of a number of frims colluding to restrict output and to maximize industry profit. A cartel will typically be unstable in the sense that each firm will be tempted to sell more than its agreed upon output if it believes that the other firms will not respond.
+
+   /Tran./ : 卡特尔是指由多个企业勾结以限制产量、最大化行业利润的组织。卡特尔通常是不稳定的，因为每个企业都有可能被诱惑，以至于超出协定的产量出售产品，特别是当它认为其他企业不会有所回应时。
+* Chapter 31
+1) Behavioral economics is concerned with how consumers make choice in reality.
+
+   /Tran./ : 行为经济学关注的是消费者在现实生活中如何选择。
+
+2) In many cases, actual consumer behavior is different from that predicted by the simple model of the rational consumer.
+
+   /Tran./ : 在很多情形下，消费者的实际行为，不同于使用理性消费简单模型预测出的行为。
+
+3) Consumers make different choices depending on how a problem is framed or presented.
+
+   /Tran./ : 消费者的选择会受到问题提问方式的影响，这就是框架效应。
+
+4) The default matters a lot.
+
+   /Tran./ : 在涉及不确定性的选择决策中，选择行为可能非常复杂。
+
+5) People find it difficult to predict their own choice behavior.
+
+   /Tran./ : 人们甚至很难预测他们自己的选择行为。
+
+6) Too many choices may be overwhelming and make it difficult to make a decision.
+
+   /Tran./ : 太多选择往往会令人不知所措。
+
+7) Choice behavior can be particularly problematic in choices involving uncertainty.
+
+   /Tran./ : 涉及到不确定的选择行为尤其具有问题。
+
+8) People tend to exhibit excess risk aversion in experimental setting.
+
+   /Tran./ :在实验设置中，人们往往表现出过度的风险厌恶。
+
+9) People may discount the future more heavily than conversational theory assumes.
+
+   /Tran./ : 人们可能会比传统理论认为的更低估未来。
+
+10) Time inconsisitency means that actual choices may end up being differnet than planted choices.
+    /Tran./ : 时间不一致意味者实际选择可能最终与计划选择不同。
+
+11) The ultimatum game involves one player proposing a division of some money and the other player either accepting that division or ending the game. Conventional game theory predicts very unfraim divisions.
+
+    /Tran./ : 最终报价博弈涉及道一个玩家提出一些钱的分配，而另外一个玩家要么接受这个分配，要么结束游戏。传统的博弈论预测非常的不准确的。
+
+12) However, consumers seem to have a preference for "fair" divisions and will punish those who behave unfairy, even if harms themselves.
+
+    /Tran./ : 消费者们似乎偏好于“公平”的分配方案，而且会惩罚行为不公平的人，甚至不惜伤害他们自己。
+* Chapter 35
+1) The First Theorem of Welfare Economics shows that a free, competitive market will provide an efficient outcome in the absence of externalities.
+
+   /Tran./ : 福利经济学第一定理表明，在不存在外部性的情形下，自由、竞争市场能实现帕累托有效的结果。
+
+2) However, if externalities are present, the outcome of a competitive market is unlikely to be Pareto efficient.
+
+   /Tran./ : 然而，如果不存在外部性，竞争市场实现的结果不可能是帕累托有效的。
+
+3) However, in this case, the state can sometimes "mimic" the role of the market by using prices to provide correct signals about the social cost of individual actions.
+
+   /Tran./ : 但是，在这种情形下，政府可以模拟市场的作用，即让个体面对他的行为的真正社会成本，而不是他的私人成本。
+
+4) More importantly, the legal system can ensure that property rights are well defined, so that efficiency-enhancing trades can be made.
+
+   /Tran./ : 更重要的是，法律系统可以确保财产权明确，从而使得个体进行交易达到帕累托有效的结果。
+
+5) If preferences are quasilinear, the efficent amount of a consumption externality will be independent of the assignment of property rights.
+
+   /Tran./ : 如果偏好是拟线性的，消费外部性的有效数量与财产权分配问题无关。
+
+6) Cures of production externalities include the use of Pigouvian taxes, setting up a market for the externality, simply allowing firms to merge, or transferring property rights in other ways.
+
+   /Tran./ : 生产外部性的解决方法包括： 使用庇古税；为外部性建立市场；允许企业合并；或者允许个体以其他方式转让财产权。
+
+7) The tragedy of the commons refers to the tendency for common property to be overused. This is a particularly prevalent form of exernality.
+
+   /Tran./ : 公地悲剧是指公有财产被过度使用的倾向。这是一种常见的外部性。
+* Chapter 37
+1) Public goods are goods for which everyone must "consume" the same amount, such as national defense, air polution, and so on.
+
+   /Tran./ : 对于公共产品来说，每个人“消费”的数量都是相同的，例如国防、空气污染等。
+
+2) If a public good is to be provided in some fixed amount or not provided at all, then a necessary and sufficient condition for provision to be Pareto efficient is that the sum of the willingnesses to pay (the reservation prices) exceeds the cost of the public good.
+
+   /Tran./ : 如果公共产品的决策是“二选一”的，--要么提供固定数量的公共产品，要么不提供；那么，提供公共产品为帕累托有效的必要和充分条件是，人们的支付意愿（保留价格）之和大于或等于公共产品的成本。
+
+3) If a public good canbe provided in a variable amount, then the necessary condition for a given amount to be Pareto efficient is that the sum of the marginal willingness to pay (the marginal rates of substitution) should equal the marginal cost.
+
+   /Tran./ :如果公共产品可以按照可变数量提供，那么公共产品数量为帕累托有效的必要条件是，人们的边际支付意愿（边际替代率）之和等于公共产品的边际成本。
+
+4) The free rider problem refers to the temptation to let other provide the public goods. In general, purely individualistic menchanisms will not generate the optimal amount of a public good because of the free rider problem.
+
+   /Tran./ : 搭便车的问题是指，每个人希望其他人提供公共产品，这样他可以免费享用。一般来束，纯粹的个人主义机制不能产生最优的公共产品数量，原因就是因为存在搭便车。
+
+5) Various collective decision methods have been proposed to determine the supply of a public good. Such methods include the command mechanism, voting, and the VCG mechanism.
+
+   /Tran./ : 在公共产品供给的决策问题上，人们已提供了各种各样的集合决策方法，例如命令机制、投票以及VCG机制等。
 
